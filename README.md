@@ -31,7 +31,7 @@ dirxor -i dir2 -i dir3 -o dir4
 
 # How does it work?
 
-Original thread: https://www.reddit.com/r/Piracy/comments/dy5y4j/piracy\_that\_cant\_even\_be\_sued/
+Original thread: <https://www.reddit.com/r/Piracy/comments/dy5y4j/piracy_that_cant_even_be_sued/>
 
 Assume you want to distribute a pirated file called A. You create a random file called B, xor it with the original file A, and produce A^B. A^B and B are both completely random and unrelated to A on their own, so you can safely distribute both files since it is mathematically impossible to relate any one of the two files to A in any way. However, when they are XOR'ed together (i.e. computing (A^B)^B) you get A, which is the original file.
 
